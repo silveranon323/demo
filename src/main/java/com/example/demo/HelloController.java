@@ -12,7 +12,7 @@ public class HelloController {
         return "Testing Spring Boot Deployment";
     }
      @GetMapping("/api/v1")
-    public String hello() {
+    public String test() {
         return "Testing api 2";
     }
 }
