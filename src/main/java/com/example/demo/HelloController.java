@@ -11,4 +11,8 @@ public class HelloController {
     public String hello() {
         return "Testing Spring Boot Deployment";
     }
+     @GetMapping("/api/v1")
+    public String hello() {
+        return "Testing api 2";
+    }
 }
